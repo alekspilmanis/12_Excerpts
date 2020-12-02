@@ -11,10 +11,32 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(
-                    destination: ScoreView()){
-                        Text("Go to Score View")
+                Image("app_title")
+                Image("center_circle")
+                
+                Spacer()
+                
+                HStack {
+                    Image("listen_button")
+                    Image("perform_button")
+                }
+                Spacer()
+                
+                VStack {
+                    HStack {
+                        Image("instagram_icon")
+                        Text("@alekspilmanis")
                     }
+                    HStack {
+                        Image("twitter_icon")
+                        Text("@alekspilmanis")
+                    }
+                    HStack {
+                        Image("github_icon")
+                        Text("")
+                        
+                    }
+                }
             }
         }
     }

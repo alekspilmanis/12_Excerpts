@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScoreView: View {
     var body: some View {
-        Text("The Score will be displayed here")
+        Text("Lets see if this works")
     }
 }
 
